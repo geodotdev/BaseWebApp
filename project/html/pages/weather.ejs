@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <% include ../helpers/head %>
+</head>
+
+<body>
+  <!-- the classes 'page-header' and 'btn btn-dark' create bootstrap components.  -->
+  <!-- Check out more components here: http://getbootstrap.com/components/ -->
+  <div class="page-header">
+    <% include ../helpers/navbar %>
+    <h1>API Test</h1>
+  </div>
+  <div style="height:40px;"></div>
+  <div class="city"></div>
+  <div class="temp"></div>
+  <div style="height:120px;"></div>
+  <input type="text" class="city-input" name="city-input" placeholder="Enter city name" id="city-input">
+  <button type="button" onClick="searchWeather()">Search</button>
+  <div class="error-message"></div>
+  <div style="height:40px;"></div>
+  <div class="city-search"></div>
+  <div class="temp-search"></div>
+</body>
+</html>
